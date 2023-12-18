@@ -1,0 +1,42 @@
+.home-page-container {
+  min-height: 100vh;
+  background-color: #152850;
+  padding: 1em;
+  display: grid;
+  grid-template-rows: auto 1fr;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: min(100%, 900px);
+  margin: 0 auto;
+}
+.logout-btn {
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+  font-weight: 500;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  padding: 0.5em 1em;
+  cursor: pointer;
+}
+.home-content-container {
+  display: grid;
+  place-items: center;
+}
+.card-container {
+  width: min(100%, 60ch);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card-container img {
+  max-width: 75%;
+}
+.card-container h1 {
+  color: white;
+  text-align: center;
+}
